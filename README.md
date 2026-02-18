@@ -12,6 +12,6 @@ The framewrork involves three stages:
 
 
 
-In particular, this package contains the workflow for the analysis f the ABM analysed in the article: Green Growth Meets Koopman: A Data-Driven Understanding of Economic Green Transitions in an Agent-Based Model (https://doi.org/10.5281/zenodo.18671445)
+In particular, this package contains the workflow for the analysis of the ABM analysed in the article: Green Growth Meets Koopman: A Data-Driven Understanding of Economic Green Transitions in an Agent-Based Model (https://doi.org/10.5281/zenodo.18671445)
 
 For full dataset visit: 

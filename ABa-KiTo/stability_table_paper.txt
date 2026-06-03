@@ -1,0 +1,17 @@
+\begin{table}[ht]
+\centering\small\setlength{\tabcolsep}{4pt}
+\caption{Robustness of clustering across interval choices ($N_{\text{int}}$) and random seeds. Each cell: total clusters / noise\% / [$\hat{\chi}_{\min}$, $\hat{\chi}_{\max}$]. \textbf{Bold} = configuration used in the paper. $\dagger$ = flagged run (noise $>20\%$ or macrostate endpoint not recovered).}
+\label{tab:robustness}
+\begin{tabular}{llccc}
+\toprule
+Scenario & $N_{\text{int}}$ & Seed 42 & Seed 123 & Seed 456 \\
+\midrule
+\multirow{2}{*}{\shortstack[l]{Voter dynamics\\(fully connected)}} & 3 & 6 / 6.6\% / [0.161, 0.694] $\dagger$ & 4 / 35.3\% / [0.161, 0.692] $\dagger$ & 6 / 6.6\% / [0.161, 0.694] $\dagger$ \\
+ & 4 & 11 / 7.4\% / [0.137, 0.713] & \textbf{10 / 7.4\% / [0.136, 0.713]} & 10 / 7.4\% / [0.136, 0.713] \\
+\midrule
+\multirow{1}{*}{\shortstack[l]{Voter dynamics\\(small-world)}} & 3 & 13 / 7.5\% / [0.202, 0.697] $\dagger$ & 13 / 7.5\% / [0.201, 0.692] $\dagger$ & 13 / 7.5\% / [0.201, 0.692] $\dagger$ \\
+\midrule
+\multirow{1}{*}{\shortstack[l]{Majority rule}} & 3 & 7 / 7.5\% / [0.134, 0.861] & 7 / 7.5\% / [0.134, 0.861] & 7 / 7.5\% / [0.134, 0.861] \\
+\bottomrule
+\end{tabular}
+\end{table}
